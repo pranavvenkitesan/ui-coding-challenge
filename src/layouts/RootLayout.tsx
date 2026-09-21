@@ -3,7 +3,7 @@ import { NavLink, Outlet } from 'react-router'
 const navItems = [
   { to: '/', label: 'Home', end: true },
   { to: '/about', label: 'About', end: false },
-  // { to: '/about', label: 'About', end: false },
+  { to: '/users', label: 'Users', end: false },
 ]
 
 export default function RootLayout() {
